@@ -11,45 +11,35 @@ export interface Project {
 
 export const projects = [
   {
-    name: 'Atlas',
-    type: 'Developer tooling',
-    description: 'A collaborative workspace for documenting and exploring internal APIs.',
-    stack: 'TypeScript · Next.js · Postgres',
-    details: 'Atlas gives engineering teams one calm place to discover, document, and test their internal APIs. I designed the information architecture and built the real-time collaboration layer.',
+    name: "Makerteca",
+    type: "Client Project",
+    description:
+      "An online platform with a wide catalog of maker activities tied to the school curriculum, organized by subject and grade level to make it quick and easy to run Maker or STEAM classes.",
+    stack: "WordPress, PHP, React Native (Expo), Next.js",
+    details:
+      "Ongoing work across Makerteca's full stack: maintaining and modernizing a custom WordPress theme and plugin (introducing testing and CI/CD to an existing codebase), building and supporting a React Native mobile app with Expo, and developing a new Next.js frontend. [ADD: any specific feature, metric, or outcome worth mentioning — e.g. user count, a migration milestone, a specific feature you built]",
     images: [
       'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1400&q=85',
       'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=85',
       'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=85'
     ],
-    website: 'https://atlas.example.com',
-    github: 'https://github.com/alexmorgan/atlas'
+    website: 'https://makerteca.com',
+    github: 'https://github.com/miguelcaballero95'
   },
   {
-    name: 'Signal',
-    type: 'Open source',
-    description: 'A lightweight observability layer that makes application health easier to understand.',
-    stack: 'Go · OpenTelemetry · Grafana',
-    details: 'Signal turns noisy telemetry into focused, actionable views. The project includes an OpenTelemetry collector, a Go service for aggregation, and a small dashboard for investigating incidents.',
+    name: 'StallSpot',
+    type: "Academic / Capstone Project",
+    description:
+      "A platform for organizing local markets, craft fairs, and food festivals, where organizers manage event stands and vendors handle their own reservations.",
+    stack: "Laravel, Inertia, Pest, Laravel Cloud",
+    details:
+      "Built a web platform that replaces the spreadsheets and back-and-forth messages organizers typically rely on to coordinate vendors. Organizers can create events, define the number of available stands, upload event maps, and approve or reject vendor applications. Vendors can browse upcoming events and apply for specific stands, with all event and reservation data tracked in a database to prevent double-booking. The app is fully responsive for use on both desktop and mobile, and supports two distinct user roles — Organizer and Vendor — each with its own workflow. Payment processing is intentionally out of scope; the focus is the application and management workflow itself.",
     images: [
       'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=85',
       'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=85',
       'https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1400&q=85'
     ],
-    website: 'https://signal.example.com',
-    github: 'https://github.com/alexmorgan/signal'
-  },
-  {
-    name: 'Field Notes',
-    type: 'Side project',
-    description: 'A quiet, fast publishing tool for collecting ideas and sharing them with the world.',
-    stack: 'React · MDX · Vercel',
-    details: 'Field Notes is a writing environment built around speed and focus. It supports MDX, keyboard-first editing, and a deliberately small publishing surface.',
-    images: [
-      'https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1400&q=85',
-      'https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=1400&q=85',
-      'https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=1400&q=85'
-    ],
-    website: 'https://fieldnotes.example.com',
-    github: 'https://github.com/alexmorgan/field-notes'
+    website: '#',
+    github: 'https://github.com/miguelcaballero95/capstone-project'
   },
 ];
