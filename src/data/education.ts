@@ -5,23 +5,26 @@ export interface Education {
   description: string;
 };
 
-export const education = [
+export const education: Education[] = [
   {
-    period: '2013 — 2017',
-    title: 'B.S. Computer Science',
-    institution: 'University of Washington',
-    description: 'Focused on software engineering, distributed systems, human-computer interaction, and the practical craft of building reliable software.',
+    period: "Sep 2023 – Dec 2026",
+    title: "Advanced Diploma, Computer Systems Technology – Software Development",
+    institution: "Mohawk College, Hamilton, Ontario",
+    description:
+      "Focused on software development, including backend development, databases, and system design. Recipient of the Dean's Honours List.",
   },
   {
-    period: '2024',
-    title: 'AWS Certified Developer — Associate',
-    institution: 'Amazon Web Services',
-    description: 'Validated hands-on experience developing, deploying, and debugging cloud-native applications on AWS.',
+    period: "March 2025",
+    title: "Microsoft Certified: Azure Fundamentals AZ900",
+    institution: "Microsoft",
+    description:
+      "Certification demonstrating foundational knowledge of cloud services and how they are delivered through Microsoft Azure.",
   },
   {
-    period: '2023',
-    title: 'Professional Scrum Master I',
-    institution: 'Scrum.org',
-    description: 'Certification covering Scrum principles, facilitation, team collaboration, and continuous delivery practices.',
+    period: "Nov 2022 – May 2023",
+    title: "English Program",
+    institution: "ILAC (International Language Academy of Canada), Toronto, Ontario",
+    description:
+      "Completed an intensive English language program to build academic and professional English proficiency ahead of post-secondary studies in Canada.",
   },
 ];
