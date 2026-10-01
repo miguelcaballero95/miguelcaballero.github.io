@@ -1,3 +1,10 @@
+export interface Education {
+  period: string;
+  title: string;
+  institution: string;
+  description: string;
+};
+
 export const education = [
   {
     period: '2013 — 2017',
