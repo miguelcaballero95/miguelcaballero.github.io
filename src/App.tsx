@@ -4,6 +4,7 @@ import { About } from "./components/About"
 import { EducationAndCertifications } from "./components/EducationAndCertifications"
 import { Experiences } from "./components/Experiences"
 import { Projects } from "./components/Projects"
+import { SiteFooter } from "./components/SiteFooter"
 import { SiteHeader } from "./components/SiteHeader"
 import { Skills } from "./components/Skills"
 import { education } from "./data/education"
@@ -41,7 +42,7 @@ export default function App() {
             />
             <EducationAndCertifications education={education} />
             <Skills skills={skills} />
-            <footer className="mt-32 flex flex-col gap-6 border-t border-white/10 py-8 text-xs text-white/30 sm:mt-40 sm:flex-row sm:items-center sm:justify-between"><p>© 2025 Miguel Caballero</p><div className="flex items-center gap-5"><a href="#about" className="transition-colors hover:text-[#d9ff63]">Back to top</a><a href="https://github.com" className="transition-colors hover:text-[#d9ff63]">GitHub</a><a href="https://linkedin.com" className="transition-colors hover:text-[#d9ff63]">LinkedIn</a></div></footer>
+            <SiteFooter />
           </div>
         </div>
       </div>
