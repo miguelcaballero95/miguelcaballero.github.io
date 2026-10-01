@@ -10,30 +10,65 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    period: '2022 — Present',
-    role: 'Senior Software Engineer',
-    company: 'Northstar Labs',
-    description: 'Leading product engineering for a developer platform used by teams shipping at scale.',
-    details: 'I lead a small product engineering team across platform architecture, developer experience, and customer-facing workflows. My work balances hands-on implementation with technical direction and close collaboration with design and product.',
-    activities: ['Designed and shipped a modular platform architecture used by 40+ engineering teams.', 'Reduced build and deployment feedback loops by 60% through tooling and pipeline improvements.', 'Established frontend patterns and review practices that improved consistency across the product.', 'Mentored engineers, ran technical discovery, and partnered with product on quarterly planning.'],
-    technologies: 'TypeScript · React · Next.js · Node.js · PostgreSQL · AWS',
+    period: "Sep 2026 – Present",
+    role: "Platform Engineer (Part-time)",
+    company: "Procor Limited",
+    description: "Automating deployment pipelines and managing containerized infrastructure.",
+    details:
+      "Continuing on from two co-op terms, I work part-time supporting Procor's software delivery process end to end — from pipeline automation to production monitoring — while collaborating closely with the development team to improve tooling and workflows.",
+    activities: [
+      "Automated deployment of software updates and configuration changes to reduce manual errors and release time",
+      "Configured and deployed containerized application instances on Kubernetes across local and cloud environments",
+      "Built and enhanced CI/CD pipelines to streamline the development team's release process",
+      "Monitored production systems and resolved issues to maintain uptime and reliability",
+      "Collaborated with development teams to improve pipelines, tooling, and cross-team workflows",
+      "Documented maintenance procedures for ongoing operations",
+    ],
+    technologies: "Jenkins, Docker, Kubernetes, Jira, Linux",
   },
   {
-    period: '2019 — 2022',
-    role: 'Software Engineer',
-    company: 'Fathom Systems',
-    description: 'Built resilient backend systems and thoughtful interfaces for data-heavy workflows.',
-    details: 'I worked across the stack on systems that helped operations teams understand and act on complex data. I was involved from early technical discovery through implementation, observability, and ongoing iteration with customers.',
-    activities: ['Built APIs and background jobs for high-volume data ingestion and processing.', 'Created data-rich interfaces that made complex workflows easier to navigate and audit.', 'Introduced monitoring, structured logging, and incident playbooks for core services.', 'Collaborated with customers to validate workflows and turn feedback into product improvements.'],
-    technologies: 'Go · TypeScript · GraphQL · PostgreSQL · Docker · Grafana',
+    period: "May 2025 – Dec 2025, May 2026 – Aug 2026",
+    role: "DevOps Engineer (Co-op)",
+    company: "Procor Limited",
+    description: "Built and maintained CI/CD pipelines and containerized deployments across two co-op terms.",
+    details:
+      "Across two co-op terms, I worked on automating the software delivery process — building CI/CD pipelines, containerizing applications, and deploying them to Kubernetes — which laid the foundation for my current role at Procor.",
+    activities: [
+      "Built and enhanced CI/CD pipelines to support the development team's release process",
+      "Configured and deployed containerized application instances on Kubernetes",
+      "Installed and configured containerized software packages",
+      "Monitored systems and troubleshot issues as they arose",
+      "Configured workflow automation to support sprint tracking and team communication",
+    ],
+    technologies: "Jenkins, Docker, Kubernetes, Jira",
   },
   {
-    period: '2017 — 2019',
-    role: 'Frontend Developer',
-    company: 'Independent',
-    description: 'Partnered with early-stage teams to turn rough ideas into clear, useful products.',
-    details: 'I partnered with founders and small teams to move from early concepts to focused, production-ready products. The work covered product definition, interface design, frontend implementation, and the practical systems needed to keep shipping.',
-    activities: ['Translated rough product ideas into clear flows, prototypes, and maintainable interfaces.', 'Built responsive web applications with accessible interaction patterns.', 'Set up component libraries and lightweight design systems for faster iteration.', 'Worked directly with founders to prioritize scope and make trade-offs visible.'],
-    technologies: 'React · JavaScript · CSS · HTML · Figma · Vercel',
+    period: "May 2024 – Dec 2024",
+    role: "Peer Tutor",
+    company: "Mohawk College Learning Support Centre",
+    description: "Supported fellow students through weekly programming lab sessions.",
+    details:
+      "I ran open lab sessions to help students work through programming concepts and assignments, balancing this alongside my own coursework.",
+    activities: [
+      "Ran weekly open lab sessions for 5+ students, planning guided learning activities",
+      "Communicated with students, faculty, and team leads to support academic goals",
+    ],
+    technologies: "Java, Python",
   },
-];
+  {
+    period: "Sep 2021 – May 2023",
+    role: "Magento Backend Developer",
+    company: "Wolfsellers — Adobe Gold Partner",
+    description: "Developed custom backend modules and APIs for Adobe Commerce storefronts.",
+    details:
+      "I built and extended backend functionality for e-commerce stores running on Magento/Adobe Commerce, designing APIs that connected backend business logic to the storefront and to external services.",
+    activities: [
+      "Designed and developed custom backend modules to extend core e-commerce functionality",
+      "Built GraphQL endpoints to expose backend business logic to internal systems and third-party consumers",
+      "Integrated third-party APIs to automate and streamline business operations",
+      "Collaborated with frontend developers to ensure smooth integration between backend services and the storefront",
+    ],
+    technologies: "PHP, GraphQL, Linux",
+  },
+
+]
