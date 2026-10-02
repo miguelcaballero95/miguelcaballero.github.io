@@ -31,7 +31,7 @@ export const ProjectModal = ({ project, activeSlide, setActiveSlide, setSelected
           project.images.length > 0 && (
             <div className="relative mt-8 overflow-hidden border border-white/10 bg-white">
               <img
-                src={project.images[activeSlide]}
+                src={import.meta.env.BASE_URL + project.images[activeSlide]}
                 alt={`${project.name} project preview ${activeSlide + 1}`}
                 className="aspect-video w-full object-contain" />
               {
