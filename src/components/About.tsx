@@ -25,6 +25,8 @@ export const About = () => {
         <a
           href="https://www.linkedin.com/in/miguel-caballero34"
           aria-label="Miguel on LinkedIn"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-white/55 transition-colors hover:text-[#d9ff63]">
           <span aria-hidden="true" className="flex size-4 items-center justify-center rounded-sm border border-current text-[9px] font-semibold">
             in
@@ -33,6 +35,8 @@ export const About = () => {
         <a
           href="https://github.com/miguelcaballero95"
           aria-label="Miguel on GitHub"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-white/55 transition-colors hover:text-[#d9ff63]">
           <GitBranch aria-hidden="true" className="size-4" />
         </a>
