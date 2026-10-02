@@ -4,8 +4,8 @@ export const SiteFooter = () => {
       <p>© {new Date().getFullYear()} Miguel Caballero</p>
       <div className="flex items-center gap-5">
         <a href="#about" className="transition-colors hover:text-[#d9ff63]">Back to top</a>
-        <a href="https://github.com" className="transition-colors hover:text-[#d9ff63]">GitHub</a>
-        <a href="https://linkedin.com" className="transition-colors hover:text-[#d9ff63]">LinkedIn</a>
+        <a href="https://github.com/miguelcaballero95/" className="transition-colors hover:text-[#d9ff63]">GitHub</a>
+        <a href="https://www.linkedin.com/in/miguel-caballero34/" className="transition-colors hover:text-[#d9ff63]">LinkedIn</a>
       </div>
     </footer>
   )
