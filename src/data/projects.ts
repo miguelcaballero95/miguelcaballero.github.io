@@ -18,7 +18,10 @@ export const projects = [
     stack: "Laravel, Inertia, Pest, Laravel Cloud",
     details:
       "Event management web app. Organizers create events, set available stands, upload event maps, and approve or reject applications. Vendors browse events and apply for specific stands, with all reservations tracked in a database to prevent double-booking. Fully responsive, with separate Organizer and Vendor workflows. Payment processing is out of scope.",
-    images: ['/images/stallspot.png'],
+    images: [
+      '/images/stallspot/home.webp',
+      '/images/stallspot/register.webp',
+    ],
     website: '',
     github: 'https://github.com/miguelcaballero95/capstone-project'
   },
@@ -30,7 +33,13 @@ export const projects = [
     stack: "WordPress, PHP, React Native (Expo), Next.js",
     details:
       "Ongoing work across Makerteca's full stack: maintaining and modernizing a custom WordPress theme and plugin (introducing testing and CI/CD to an existing codebase), building and supporting a React Native mobile app with Expo, and developing a new Next.js frontend. [ADD: any specific feature, metric, or outcome worth mentioning — e.g. user count, a migration milestone, a specific feature you built]",
-    images: ['/images/makerteca.png'],
+    images: [
+      '/images/makerteca/home.webp',
+      '/images/makerteca/login.webp',
+      '/images/makerteca/activities.webp',
+      '/images/makerteca/curso.webp',
+      '/images/makerteca/profile.webp',
+    ],
     website: 'https://makerteca.com',
     github: 'https://github.com/miguelcaballero95'
   },
@@ -42,7 +51,13 @@ export const projects = [
     stack: "React, TypeScript, Gemini API",
     details:
       "Built with a team for VandVoyage.com, aimed at group travellers planning trips like all-inclusive getaways or multi-airport. Rather than optimizing purely for price, it weighs amenities, baggage, and trip fit to avoid the hidden trade-offs of bottom-dollar fares. Users describe their trip through guided prompts and an amenities checklist, and the tool filters and ranks flights against those preferences. I built the React frontend, integrated the Google Flights and Gemini APIs for live data and AI-assisted research, and handled backend calls through Netlify server actions.",
-    images: ['/images/vandvoyage.png'],
+    images: [
+      '/images/vandvoyage/home.webp',
+      '/images/vandvoyage/login.webp',
+      '/images/vandvoyage/results.webp',
+      '/images/vandvoyage/single.webp',
+      '/images/vandvoyage/filters.webp',
+    ],
     website: "https://vandvoyage.netlify.app/",
     github: "https://github.com/miguelcaballero95/mohawk-vandvoyage",
   },
