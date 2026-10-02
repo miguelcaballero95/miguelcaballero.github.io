@@ -2,9 +2,9 @@
 
 Personal portfolio website built with React and TypeScript, showcasing my experience, projects, and skills as software developer.
 
-- Production website: [https://miguelcaballerodev.vercel.app/](#)
+- Production website: [miguelcaballerodev.vercel.app](https://miguelcaballerodev.vercel.app/)
 
 ## Contact
 
-- LinkedIn: [https://www.linkedin.com/in/miguel-caballero34/](#)
-- GitHub: [https://github.com/miguelcaballero95/](#)
+- LinkedIn: [linkedin.com/in/miguel-caballero34](https://www.linkedin.com/in/miguel-caballero34/)
+- GitHub: [github.com/miguelcaballero95](https://github.com/miguelcaballero95/)
