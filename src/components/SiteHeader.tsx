@@ -19,7 +19,8 @@ export const SiteHeader = () => {
         </a>
         <a
           href="/resume.pdf"
-          download="Miguel-Caballero-Resume.pdf"
+          target="_blank"
+          rel="noreferrer"
           aria-label="Download resume"
           className="inline-flex items-center gap-2 text-xs text-white/50 transition-colors hover:text-[#d9ff63]">
           <Download aria-hidden="true" className="size-3.5" />
