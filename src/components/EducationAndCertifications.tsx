@@ -1,4 +1,5 @@
 import type { Education } from "@/data/education";
+import { ExternalLink } from "lucide-react";
 
 interface Props {
   education: Education[];
@@ -19,7 +20,19 @@ export const EducationAndCertifications = ({ education }: Props) => {
                 className="grid gap-3 py-6 first:pt-0 sm:grid-cols-[150px_1fr] sm:gap-8">
                 <p className="text-xs text-white/35">{item.period}</p>
                 <div>
-                  <h3 className="text-base font-medium text-white">{item.title}</h3>
+                  <h3 className="text-base font-medium text-white">
+                    {item.title}
+                    {item.credential && (
+                      <a
+                        href={item.credential}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="ml-2 inline-flex items-center gap-1 text-xs text-white/55 transition-colors hover:text-[#d9ff63]">
+                        <ExternalLink aria-hidden="true" className="size-3.5" />
+                        Show Credential
+                      </a>
+                    )}
+                  </h3>
                   <p className="mt-1 text-sm text-white/40">{item.institution}</p>
                   <p className="mt-3 max-w-lg text-sm leading-6 text-white/45">{item.description}</p>
                 </div>

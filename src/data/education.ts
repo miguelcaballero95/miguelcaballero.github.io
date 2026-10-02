@@ -3,6 +3,7 @@ export interface Education {
   title: string;
   institution: string;
   description: string;
+  credential?: string;
 };
 
 export const education: Education[] = [
@@ -19,6 +20,7 @@ export const education: Education[] = [
     institution: "Microsoft",
     description:
       "Certification demonstrating foundational knowledge of cloud services and how they are delivered through Microsoft Azure.",
+    credential: "https://www.credly.com/badges/ae0271a2-a820-46aa-871f-ec4f29ec4b20"
   },
   {
     period: "Nov 2022 – May 2023",
