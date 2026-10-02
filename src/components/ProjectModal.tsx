@@ -26,10 +26,10 @@ export const ProjectModal = ({ project, activeSlide, setActiveSlide, setSelected
         <div className="flex items-center justify-between pr-8">
           <p className="text-xs uppercase tracking-[0.2em] text-[#d9ff63]">{project.type}</p>
         </div>
-        <h2 id="project-title" className="mt-5 text-3xl tracking-[-0.04em] text-white">{project.name}</h2>
+        <h2 id="project-title" className="mt-2 text-3xl tracking-[-0.04em] text-white">{project.name}</h2>
         {
           project.images.length > 0 && (
-            <div className="relative mt-8 overflow-hidden bg-white">
+            <div className="relative mt-4 overflow-hidden bg-white">
               <img
                 src={project.images[activeSlide]}
                 alt={`${project.name} project preview ${activeSlide + 1}`}
@@ -69,8 +69,8 @@ export const ProjectModal = ({ project, activeSlide, setActiveSlide, setSelected
             </div>
           )
         }
-        <p className="mt-8 max-w-xl text-sm leading-7 text-white/55">{project.details}</p>
-        <div className="mt-8 flex flex-col gap-6 border-t border-white/10 pt-5">
+        <p className="mt-3 max-w-xl text-sm leading-7 text-white/55">{project.details}</p>
+        <div className="mt-3 flex flex-col gap-3 border-t border-white/10 pt-2">
           <div>
             <p className="mb-3 text-[10px] uppercase tracking-[0.18em] text-white/30">Tech stack</p>
             <p className="text-xs text-white/55">{project.stack}</p>

@@ -13,11 +13,9 @@ export const projects = [
   {
     name: 'StallSpot',
     type: "Academic / Capstone Project",
-    description:
-      "A platform for organizing local markets, craft fairs, and food festivals, where organizers manage event stands and vendors handle their own reservations.",
+    description: "Event management platform for organizing markets fairs, and other outdoor events, with role-based workflows.",
     stack: "Laravel, Inertia, Pest, Laravel Cloud",
-    details:
-      "Event management web app. Organizers create events, set available stands, upload event maps, and approve or reject applications. Vendors browse events and apply for specific stands, with all reservations tracked in a database to prevent double-booking. Fully responsive, with separate Organizer and Vendor workflows. Payment processing is out of scope.",
+    details: "Role-based access control separates Organizer and Vendor permissions: organizers create events, define stand inventory, upload event maps, and approve or reject vendor applications; vendors browse events and apply to specific stands. A relational schema tracks events, stands, and applications to prevent double-booking at the database level. Payment processing is intentionally out of scope — the focus is the application and management workflow.",
     images: [
       '/images/stallspot/home.webp',
       '/images/stallspot/register.webp',
@@ -28,11 +26,9 @@ export const projects = [
   {
     name: "Makerteca",
     type: "Client Project",
-    description:
-      "An online platform with a wide catalog of maker activities tied to the school curriculum, organized by subject and grade level to make it quick and easy to run Maker or STEAM classes.",
+    description: "Online platform with a wide catalog of maker activities tied to the school curriculum, organized by subject and grade level to make it quick and easy to run Maker/STEAM classes.",
     stack: "WordPress, PHP, React Native (Expo), Next.js",
-    details:
-      "Ongoing work across Makerteca's full stack: maintaining and modernizing a custom WordPress theme and plugin (introducing testing and CI/CD to an existing codebase), building and supporting a React Native mobile app with Expo, and developing a new Next.js frontend. [ADD: any specific feature, metric, or outcome worth mentioning — e.g. user count, a migration milestone, a specific feature you built]",
+    details: "Ongoing work across Makerteca's full stack: maintaining and modernizing a custom WordPress theme and plugin, building and supporting a React Native mobile app with Expo, and developing a new Next.js frontend.",
     images: [
       '/images/makerteca/home.webp',
       '/images/makerteca/login.webp',
@@ -41,16 +37,14 @@ export const projects = [
       '/images/makerteca/profile.webp',
     ],
     website: 'https://makerteca.com',
-    github: 'https://github.com/miguelcaballero95'
+    github: ''
   },
   {
-    name: "VandVoyage Flight Research Tool",
+    name: "VandVoyage Trip Tool",
     type: "Academic / Team Project",
-    description:
-      "A flight research tool for group travellers that prioritizes overall trip fit over the cheapest fare — built for VandVoyage.com.",
-    stack: "React, TypeScript, Gemini API",
-    details:
-      "Built with a team for VandVoyage.com, aimed at group travellers planning trips like all-inclusive getaways or multi-airport. Rather than optimizing purely for price, it weighs amenities, baggage, and trip fit to avoid the hidden trade-offs of bottom-dollar fares. Users describe their trip through guided prompts and an amenities checklist, and the tool filters and ranks flights against those preferences. I built the React frontend, integrated the Google Flights and Gemini APIs for live data and AI-assisted research, and handled backend calls through Netlify server actions.",
+    description: "A Trip tool for group travellers that prioritizes overall trip fit over the cheapest fare.",
+    stack: "React, TypeScript, Netlify",
+    details: "Built with a school team. Rather than optimizing purely for price, it weighs amenities, baggage, and trip fit to avoid the hidden trade-offs of bottom-dollar fares. Users describe their trip through guided prompts and an amenities checklist, and the tool filters and ranks flights against those preferences. I built the React frontend, integrated APIs for live data and AI-assisted research, and handled backend calls through Netlify server actions.",
     images: [
       '/images/vandvoyage/home.webp',
       '/images/vandvoyage/login.webp',
