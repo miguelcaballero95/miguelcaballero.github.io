@@ -29,11 +29,11 @@ export const ProjectModal = ({ project, activeSlide, setActiveSlide, setSelected
         <h2 id="project-title" className="mt-5 text-3xl tracking-[-0.04em] text-white">{project.name}</h2>
         {
           project.images.length > 0 && (
-            <div className="relative mt-8 overflow-hidden border border-white/10 bg-white">
+            <div className="relative mt-8 overflow-hidden bg-white">
               <img
                 src={project.images[activeSlide]}
                 alt={`${project.name} project preview ${activeSlide + 1}`}
-                className="aspect-video w-full object-contain" />
+                className="w-full object-cover" />
               {
                 project.images.length > 1 && (
                   <>
