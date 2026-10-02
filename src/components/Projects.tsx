@@ -8,17 +8,17 @@ interface Props {
 
 export const Projects = ({ projects, setSelectedProject, setActiveSlide }: Props) => {
   return (
-    <section id="projects" aria-labelledby="projects-heading" className="mt-32 scroll-mt-10 border-t border-white/10 pt-6 sm:mt-40">
+    <section id="projects" aria-labelledby="projects-heading" className="mt-20 scroll-mt-10 border-t border-white/10 pt-6 sm:mt-22">
       <div className="grid gap-10 sm:grid-cols-[180px_1fr] sm:gap-12">
         <h2 id="projects-heading" className="text-xs uppercase tracking-[0.2em] text-white/35">Projects</h2>
-        <div className="grid gap-3">
+        <div className="grid gap-3 divide-y divide-white/10">
           {
             projects.map((item, index) => (
               <button
                 type="button"
                 onClick={() => { setSelectedProject(index); setActiveSlide(0) }}
                 key={item.name}
-                className="group grid w-full gap-4 border-b border-white/10 py-5 text-left first:pt-0 sm:grid-cols-[32px_1fr_auto] sm:items-start sm:gap-6">
+                className="group grid w-full gap-4  py-5 text-left first:pt-0 sm:grid-cols-[32px_1fr_auto] sm:items-start sm:gap-6">
                 <span className="text-xs text-white/25">0{index + 1}</span>
                 <div>
                   <div className="flex items-center gap-3">

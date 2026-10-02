@@ -8,7 +8,7 @@ interface Props {
 
 export const Experiences = ({ experiences, setSelectedExperience }: Props) => {
   return (
-    <section id="experience" aria-labelledby="experience-heading" className="mt-32 scroll-mt-10 border-t border-white/10 pt-6 sm:mt-40">
+    <section id="experience" aria-labelledby="experience-heading" className="mt-20 scroll-mt-10 border-t border-white/10 pt-6 sm:mt-24">
       <div className="grid gap-10 sm:grid-cols-[180px_1fr] sm:gap-12">
         <h2 id="experience-heading" className="text-xs uppercase tracking-[0.2em] text-white/35">
           Experience

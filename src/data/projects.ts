@@ -48,7 +48,7 @@ export const projects = [
   },
   {
     name: "Gravity Forms to Jobber Integration",
-    type: "Freelance / Client Project (Upwork)",
+    type: "Client Project",
     description:
       "A WordPress plugin that automatically creates requests in Jobber whenever a client submits a Gravity Forms entry, eliminating manual data entry.",
     stack: "WordPress, PHP, Gravity Forms, Jobber GraphQL API",

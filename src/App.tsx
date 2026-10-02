@@ -24,7 +24,7 @@ export default function App() {
     <main className="min-h-screen bg-[#0b0c0e] text-[#f3f3ef] selection:bg-[#d9ff63] selection:text-[#0b0c0e]">
       <div className="mx-auto max-w-6xl px-6 py-8 sm:px-10 lg:px-16 lg:py-10">
         <SiteHeader />
-        <div className="grid gap-20 pt-16 lg:grid-cols-[180px_1fr] lg:gap-24 lg:pt-24">
+        <div className="grid gap-20 pt-12 lg:grid-cols-[180px_1fr] lg:gap-24 lg:pt-24">
           <aside className="hidden lg:block">
             <p className="sticky top-8 text-xs uppercase tracking-[0.2em] text-white/30">
               Software<br />developer

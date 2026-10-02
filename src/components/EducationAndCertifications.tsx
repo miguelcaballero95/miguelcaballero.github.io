@@ -7,7 +7,7 @@ interface Props {
 
 export const EducationAndCertifications = ({ education }: Props) => {
   return (
-    <section id="education" aria-labelledby="education-heading" className="mt-32 scroll-mt-10 border-t border-white/10 pt-6 sm:mt-40">
+    <section id="education" aria-labelledby="education-heading" className="mt-20 scroll-mt-10 border-t border-white/10 pt-6 sm:mt-22">
       <div className="grid gap-10 sm:grid-cols-[180px_1fr] sm:gap-12">
         <h2 id="education-heading" className="text-xs uppercase tracking-[0.2em] text-white/35">
           Education &amp;<br className="hidden sm:block" /> certifications
